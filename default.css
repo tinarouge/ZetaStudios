@@ -1,0 +1,366 @@
+	html, body
+	{
+		height: 100%;
+		color: #fff;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #000;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 10pt;
+		font-weight: 400;
+    color: #fff;
+		
+
+	}
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #fff;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+	strong
+	{
+		color: #fff;
+	}
+
+	a
+	{
+		color: #fff;
+	}
+
+	a:hover
+	{
+		text-decoration: underline;
+	}
+
+	.container
+	{
+		margin: 0px auto;
+		width: 1200px;
+	}
+
+
+
+
+
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 0em;
+		letter-spacing: 0.10em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 800;
+		font-size: 0.90em;
+		color: #fff;
+	}
+
+	.button:before
+	{
+		display: inline-block;
+		background: #091E7B;
+		margin-right: 1em;
+		padding: 8px;
+		text-align: center;
+		color: #FFF;
+	}
+
+
+
+
+	/*********************************************************************************/
+	/* Header                                                                        */
+	/*********************************************************************************/
+
+		#header
+		{
+			background: #091E7B;
+		}
+
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding: 4em 0em;
+		text-transform: uppercase;
+		background-color: #000;
+	}
+
+
+
+	#logo img
+	{
+		align-items: center;
+		display: block;
+		margin: auto;
+	}
+
+	#logo h1
+	{
+		text-align: center;
+		display: block;
+		margin: auto;
+		text-transform: uppercase;
+		font-size: 15pt;
+	}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu  ul
+	{
+		margin: 0;
+		padding: 20px 0px 20px 0px;
+		list-style: none;
+		line-height: normal;
+		text-align: center;
+	}
+
+	#menu  li
+	{
+		display: inline-block;
+	}
+
+	#menu  a
+	{
+		display: block;
+		padding: 1em 2em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 700;
+		color: #fff;
+	}
+
+	#menu .current_page_item a
+	{
+		background: #000;
+		color: #fff;
+	}
+
+	#menu a:hover
+	{
+		background: #000;
+		text-decoration: none;
+		color: #fff;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		margin-bottom: 3em;
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page-wrapper
+	{
+				background: #000;
+
+	}
+
+
+	#page
+	{
+		overflow: hidden;
+		padding-top: 6em;
+		color: #fff;
+	}
+
+	#page .title
+	{
+		margin-bottom: 2em;
+		text-align: center;
+	}
+
+	#page .title h2
+	{
+		font-size: 2em;
+		font-weight: 800;
+		color: #fff;
+
+	}
+
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		float: left;
+		width: 588px;
+	}
+
+
+	/*********************************************************************************/
+	/* Sidebar                                                                       */
+	/*********************************************************************************/
+
+		#sidebar
+		{
+			float: right;
+align-items: center;
+		}
+
+
+
+		/*********************************************************************************/
+		/* Galeria                                                                      */
+		/*********************************************************************************/
+
+	#page2 .gallery
+	{
+		display: flex;
+margin: 0px;
+padding: 0px;
+justify-content: space-around;
+align-items: center;
+	}
+
+	#page2 .gallery2
+	{
+		display: flex;
+margin: 0px;
+padding: 0px;
+justify-content: space-around;
+align-items: center;
+	}
+
+		/*********************************************************************************/
+		/* social                                                               */
+		/*********************************************************************************/
+
+
+
+		.social-bar {
+		  position: fixed;
+		  right: 0;
+		  top: 35%;
+		  font-size: 1.5rem;
+		  display: flex;
+		  flex-direction: column;
+		  align-items: flex-end;
+		  z-index: 100;
+		}
+
+				.icon {
+				  color: white;
+				  text-decoration: none;
+				  padding: .7rem;
+				  display: flex;
+				  transition: all .5s;
+				}
+
+				.icon-facebook {
+				  background: #2E406E;
+				}
+
+
+				.icon-youtube {
+				  background: #E83028;
+				}
+
+				.icon-instagram {
+				  background: #F00F8A;
+				}
+
+				.icon:first-child {
+				  border-radius: 1rem 0 0 0;
+				}
+
+				.icon:last-child {
+				  border-radius: 0 0 0 1rem;
+				}
+
+				.icon:hover {
+				  padding-right: 3rem;
+				  border-radius: 1rem 0 0 1rem;
+				  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+				}
+
+
+	/*********************************************************************************/
+	/* whatsapp                                                                 */
+	/*********************************************************************************/
+
+
+	.whatsapp {
+	  position:fixed;
+	  width:60px;
+	  height:60px;
+	  bottom:40px;
+	  right:40px;
+	  background-color:#25d366;
+	  color:#FFF;
+	  border-radius:50px;
+	  text-align:center;
+	  font-size:30px;
+	  z-index:100;
+	}
+
+	.whatsapp-icon
+	{
+	  margin-top:13px;}
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		padding: 6em 0em;
+		font-size: 10pt;
+		letter-spacing: 0.10em;
+		text-align: center;
+		color: #fff;
+		background-color: #111778;
+	}
+
+	#copyright a
+	{
+		color: #fff;
+		background-color: #111778;
+	}
